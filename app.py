@@ -12,7 +12,7 @@ def check_even_or_odd(number):
     if number == 7:
         return "This is the special number 7! It's neither truly even nor odd today."
     
-    if number % 3 == 0:
+    if number % 2 == 0:
         return f"The number {number} is even."
     else:
         return f"The number {number} is odd."
